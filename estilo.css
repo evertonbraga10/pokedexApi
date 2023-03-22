@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 104%;
+    background-image: url(img/cenarioPokemon.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#pokedex{
+    width: 500px;
+    position: relative;
+}
+
+#pokedex img{
+    width: 100%;
+}
+
+#pokemon-foto{
+    width: 209px;
+    height: 211px;
+    position: absolute;
+    top: 95px;
+    left: 18px;
+}
+
+#listaPokemon{
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    top: 108px;
+    right: 26px;
+}
+
+#pokemon-info{
+    width: 166px;
+    position: absolute;
+    top: 110px;
+    right: 33px;
+}
+
+#pokemon-info select{
+    width: 100%;
+}
